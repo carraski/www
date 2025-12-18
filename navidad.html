@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <head>
     <title>PROGRAMACIÓN</title>
 
@@ -7,50 +8,131 @@
             font-family: SnowForSanta;
             src: url(SnowForSanta.ttf);
         }
-
         @font-face {
             font-family: Winter;
             src: url(Snowinter-Free-For-Personal-Use.ttf);
         }
-
-        @font-face {
-            font-family: Navidad3;
-            src: url(Hello-Christmas-trial.ttf);
-        }
-
-        .body {
-            background-color:lightslategray;
-            background-image:url("bf0b1399-fb33-492e-87ae-51d5785becf1.png");
+        body {
+            background-color: lightslategray;
+            background-image: url("bf0b1399-fb33-492e-87ae-51d5785becf1.png");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
             margin: 0;
+            padding: 20px;
         }
-
         .titulo {
             font-family: Winter;
             font-size: 40px;
             text-align: center;
             margin-top: 20px;
         }
-
         .subtitulo {
             font-family: SnowForSanta;
             font-size: 30px;
             text-align: center;
+            margin-bottom: 40px;
+        }
+        .contenedor {
+            display: flex;
+            justify-content: space-between;
+        }
+        .columna {
+            width: 45%;
+        }
+        .espacio-titulo {
+            font-family: Winter;
+            font-size: 24px;
+            padding: 10px;
+            margin-top: 20px;
+            text-align: center;
+            border: 3px solid darkred;
+            background: linear-gradient(to right, red, green);
+            color: white;
+        }
+        .actividad {
+            font-family: Arial;
+            font-size: 16px;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 8px;
         }
     </style>
 </head>
 
 <body>
 
-    <div class="titulo">
-        PROGRAMACIÓN
-    </div>
+    <div class="titulo">PROGRAMACIÓN</div>
+    <h2 class="subtitulo">FIESTA DE NAVIDAD</h2>
 
-    <h2 class="subtitulo">
-        FIESTA DE NAVIDAD
-    </h2>
+    <div class="contenedor">
+        <div class="columna">
+
+            <div class="espacio-titulo">HALL</div>
+            <div class="actividad">
+                <strong>CHOCOLATADA (0,50 €)</strong><br>
+                Hora: de 11h00 a 11h30
+            </div>
+            <div class="actividad">
+                <strong>MERCADILLO SOLIDARIO</strong><br>
+                Hora: de 11h00 a 13h15
+            </div>
+            <div class="actividad">
+                <strong>TALLER DE TARJETAS</strong><br>
+                Hora: de 11h30 a 13h15
+            </div>
+
+            <div class="espacio-titulo">AULA DE MÚSICA</div>
+            <div class="actividad">
+                <strong>BATUCADA Y CONCIERTO</strong><br>
+                Hora: de 11h30 a 12h20
+            </div>
+            <div class="actividad">
+                <strong>JUST DANCE</strong><br>
+                Hora: de 12h30 a 13h15
+            </div>
+
+            <div class="espacio-titulo">AULA DE DIBUJO</div>
+            <div class="actividad">
+                <strong>TORNEO VIDEOJUEGOS</strong><br>
+                Hora: de 11h30 a 13h15
+            </div>
+
+        </div>
+        <div class="columna">
+
+            <div class="espacio-titulo">BIBLIOTECA</div>
+            <div class="actividad">
+                <strong>CLUB DE LECTURA</strong><br>
+                Hora: de 11h30 a 12h30
+            </div>
+
+            <div class="espacio-titulo">AULA 1º ESO C</div>
+            <div class="actividad">
+                <strong>KARAOKE EN FRANCÉS</strong><br>
+                Hora: de 11h30 a 12h20
+            </div>
+            <div class="actividad">
+                <strong>CONCURSO UGLY SWEATER</strong><br>
+                Hora: de 12h30 a 13h15
+            </div>
+
+            <div class="espacio-titulo">TIC-1 Y TIC-2</div>
+            <div class="actividad">
+                <strong>LA HORA DEL CÓDIGO</strong><br>
+                Hora: de 11h30 a 12h20
+            </div>
+
+            <div class="espacio-titulo">PISTA FÚTBOL SALA</div>
+            <div class="actividad">
+                <strong>TORNEO BUBBLE FOOTBALL</strong><br>
+                Hora: de 11h30 a 13h15
+            </div>
+
+        </div>
+
+    </div>
 
 </body>
 </html>
