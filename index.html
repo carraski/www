@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="es">
 <head>
     <title>PROGRAMACIÓN</title>
     <style>
@@ -68,7 +67,7 @@
             display: block;
             border-radius: 12px;
         }
-        .img-hover {
+        .imagen-hover {
             position: relative;
             width: 300px;
             margin: 40px auto;
@@ -76,52 +75,26 @@
             display: block;
             border-radius: 12px;
         }
-        .imagen-hover {
-    position: relative;
-    width: 300px;
-    margin: 40px auto;
-        }
-        .imagen-hover img {
-    width: 100%;
-    display: block;
-    border-radius: 12px;
-    transition: opacity 1.5s ease;
-        }
-        .img-hover {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-        }
-        .imagen-hover:hover .img-hover {
-    opacity: 1;
-        }
-        .imagen-hover:hover .imagen-normal {
-    opacity: 0;
-        }
     </style>
 </head>
 <body>
     <div class="titulo">PROGRAMACIÓN</div>
     <h2 class="subtitulo">FIESTA DE NAVIDAD</h2>
- <div class="contenedor">
-    <div class="columna">
-        <div class="espacio-titulo">HALL</div>
-        <div class="actividad"><strong>CHOCOLATADA (0,50 €)</strong><br>Hora: 11:00 - 11:30</div>
-        <div class="actividad"><strong>MERCADILLO SOLIDARIO</strong><br>Hora: 11:00 - 13:15</div>
-        <div class="actividad"><strong>TALLER DE TARJETAS</strong><br>Hora: 11:30 - 13:15</div>
+    <div class="contenedor">
+        <div class="columna">
+            <div class="espacio-titulo">HALL</div>
+            <div class="actividad"><strong>CHOCOLATADA (0,50 €)</strong><br>Hora: 11:00 - 11:30</div>
+            <div class="actividad"><strong>MERCADILLO SOLIDARIO</strong><br>Hora: 11:00 - 13:15</div>
+            <div class="actividad"><strong>TALLER DE TARJETAS</strong><br>Hora: 11:30 - 13:15</div>
+            <div class="espacio-titulo">AULA DE MÚSICA</div>
+            <div class="actividad"><strong>BATUCADA Y CONCIERTO</strong><br>Hora: 11:30 - 12:20</div>
+            <div class="actividad"><strong>JUST DANCE</strong><br>Hora: 12:30 - 13:15</div>
+            <div class="espacio-titulo">AULA DE DIBUJO</div>
+            <div class="actividad"><strong>TORNEO VIDEOJUEGOS</strong><br>Hora: 11:30 - 13:15</div>
+        </div>
     </div>
-    <div class="columna">
-        <div class="espacio-titulo">AULA DE MÚSICA</div>
-        <div class="actividad"><strong>BATUCADA Y CONCIERTO</strong><br>Hora: 11:30 - 12:20</div>
-        <div class="actividad"><strong>JUST DANCE</strong><br>Hora: 12:30 - 13:15</div>
-        <div class="espacio-titulo">AULA DE DIBUJO</div>
-        <div class="actividad"><strong>TORNEO VIDEOJUEGOS</strong><br>Hora: 11:30 - 13:15</div>
+    <div class="imagen-hover">
+        <img src="0zw7_5z01_230818.jpg" alt="Imagen normal">
+        <img class="img-hover" src="istockphoto-874114230-1024x1024.jpg" alt="Imagen hover">
     </div>
-</div>
-<div class="imagen-hover">
-     <img class="imagen-normal" src="0zw7_5z01_230818.jpg">
-     <img class="img-hover" src="istockphoto-874114230-1024x1024.jpg">
-</div>
 </body>
-</html>
