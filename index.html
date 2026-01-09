@@ -58,6 +58,30 @@
             margin-bottom: 10px;
             border-radius: 8px;
         }
+        .imagen-hover {
+    position: relative;
+    width: 300px;
+    margin: 40px auto;
+}
+
+.imagen-hover img {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+}
+
+.img-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 2s ease;
+}
+
+.imagen-hover:hover .img-hover {
+    opacity: 1;
+}
+
     </style>
 </head>
 
@@ -123,6 +147,147 @@
                 <strong>LA HORA DEL CÓDIGO</strong><br>
                 Hora: de 11h30 a 12h20
             </div>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PROGRAMACIÓN</title>
+
+    <style>
+        @font-face {
+            font-family: SnowForSanta;
+            src: url(SnowForSanta.ttf);
+        }
+        @font-face {
+            font-family: Winter;
+            src: url(Snowinter-Free-For-Personal-Use.ttf);
+        }
+        body {
+            background: linear-gradient(to right, lightslategray, rgb(97, 168, 185));
+        }
+        .titulo {
+            font-family: Winter;
+            font-size: 40px;
+            text-align: center;
+            margin-top: 20px;
+            background: linear-gradient(to right, darkred, green);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .subtitulo {
+            font-family: SnowForSanta;
+            font-size: 30px;
+            text-align: center;
+            margin-bottom: 40px;
+            background: linear-gradient(to right, red, darkgreen);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .contenedor {
+            display: flex;
+            justify-content: space-between;
+        }
+        .columna {
+            width: 45%;
+        }
+        .espacio-titulo {
+            font-family: Winter;
+            font-size: 24px;
+            padding: 10px;
+            margin-top: 20px;
+            text-align: center;
+            border: 3px solid darkred;
+            background: linear-gradient(to right, red, green
+            color: white;
+        }
+        .actividad {
+            font-family: Arial;
+            font-size: 16px;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="titulo">PROGRAMACIÓN</div>
+    <h2 class="subtitulo">FIESTA DE NAVIDAD</h2>
+
+    <div class="contenedor">
+        <div class="columna">
+
+            <div class="espacio-titulo">HALL</div>
+            <div class="actividad">
+                <strong>CHOCOLATADA (0,50 €)</strong><br>
+                Hora: de 11h00 a 11h30
+            </div>
+            <div class="actividad">
+                <strong>MERCADILLO SOLIDARIO</strong><br>
+                Hora: de 11h00 a 13h15
+            </div>
+            <div class="actividad">
+                <strong>TALLER DE TARJETAS</strong><br>
+                Hora: de 11h30 a 13h15
+            </div>
+
+            <div class="espacio-titulo">AULA DE MÚSICA</div>
+            <div class="actividad">
+                <strong>BATUCADA Y CONCIERTO</strong><br>
+                Hora: de 11h30 a 12h20
+            </div>
+            <div class="actividad">
+                <strong>JUST DANCE</strong><br>
+                Hora: de 12h30 a 13h15
+            </div>
+
+            <div class="espacio-titulo">AULA DE DIBUJO</div>
+            <div class="actividad">
+                <strong>TORNEO VIDEOJUEGOS</strong><br>
+                Hora: de 11h30 a 13h15
+            </div>
+
+        </div>
+        <div class="columna">
+
+            <div class="espacio-titulo">BIBLIOTECA</div>
+            <div class="actividad">
+                <strong>CLUB DE LECTURA</strong><br>
+                Hora: de 11h30 a 12h30
+            </div>
+
+            <div class="espacio-titulo">AULA 1º ESO C</div>
+            <div class="actividad">
+                <strong>KARAOKE EN FRANCÉS</strong><br>
+                Hora: de 11h30 a 12h20
+            </div>
+            <div class="actividad">
+                <strong>CONCURSO UGLY SWEATER</strong><br>
+                Hora: de 12h30 a 13h15
+            </div>
+
+            <div class="espacio-titulo">TIC-1 Y TIC-2</div>
+            <div class="actividad">
+                <strong>LA HORA DEL CÓDIGO</strong><br>
+                Hora: de 11h30 a 12h20
+            </div>
+
+            <div class="espacio-titulo">PISTA FÚTBOL SALA</div>
+            <div class="actividad">
+                <strong>TORNEO BUBBLE FOOTBALL</strong><br>
+                Hora: de 11h30 a 13h15
+            </div>
+
+        </div>
+
+    </div>
+<div class="imagen-hover">
+    <img src="0zw7_5z01_230818.jpg">
+    <img src="istockphoto-874114230-1024x1024.jpg">
+</div>
+</body>
+</html>
 
             <div class="espacio-titulo">PISTA FÚTBOL SALA</div>
             <div class="actividad">
