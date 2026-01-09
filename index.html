@@ -76,6 +76,29 @@
             display: block;
             border-radius: 12px;
         }
+        .imagen-hover {
+    position: relative;
+    width: 300px;
+    margin: 40px auto;
+        }
+        .imagen-hover img {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+    transition: opacity 1.5s ease;
+        }
+        .img-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+        }
+        .imagen-hover:hover .img-hover {
+    opacity: 1;
+        }
+        .imagen-hover:hover .imagen-normal {
+    opacity: 0;
+        }
     </style>
 </head>
 <body>
